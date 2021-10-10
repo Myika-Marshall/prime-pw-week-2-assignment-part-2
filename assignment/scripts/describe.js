@@ -132,11 +132,14 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+* let colorOne = 'blue';
 let colorTwo = 'blue';
+*let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  * console.log('purple')
 }
 */
 
@@ -147,8 +150,10 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+* let time = 4
 
 if (temp > 39 || time >= 4) {
+*if (temp >39 && time >=4)
   console.log('throw away the food!');
 }
 */
@@ -160,10 +165,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
-if(minAge <= age) {
+*let minAge = 21;
+if(minAge <= age)
+* if(age >= minAge) {
   console.log('no entry');
+  *console.log('enter')
 } else {
   console.log('enter');
-}
+}*would remove "else" statement.
 */
