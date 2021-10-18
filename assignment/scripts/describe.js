@@ -13,7 +13,7 @@
 // we console.log 'yes'.
 
 //CODE
-/*
+
 let number = 1;
 
 number++;
@@ -22,7 +22,7 @@ if (number >= 2) {
   console.log('yes');
 }
 
-*/
+
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
@@ -32,7 +32,7 @@ if (number >= 2) {
 //Because the name is dane, it will read "How do you do?"
 
 //CODE
-/*
+
 let name = 'Dane';
 
 if (name === 'Mary') {
@@ -42,7 +42,6 @@ if (name === 'Mary') {
 }
 
 
-*/
 
 // 2. WRITE YOUR DESCRIPTION HERE
 //We have secret set as an undefined variable
@@ -51,23 +50,23 @@ if (name === 'Mary') {
 //a conditional statement that if the code is greater than 250- the value of secret is equal to string 'duper' - the console log will return a "super" when secret is typed in the log.
 
 //CODE
-/*
+
 let secret;
 
 let code = 123;
 
 if(code === 123) {
-  secret = 'super';
-  code = code * 2;
+  secret === 'super';
+  code= code*2;
 }
 
 if (code > 250) {
-  secret = 'duper'
+  secret === 'duper'
 }
 
 console.log(secret)
 
-*/
+
 
 // 3. WRITE YOUR DESCRIPTION HERE
 //We are declaring that IsStudent has a boolean of true, age is equal to 34 and zip code is defined as 55407
@@ -130,18 +129,18 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
-let colorOne = 'red';
-* let colorOne = 'blue';
-let colorTwo = 'blue';
-*let colorTwo = 'red';
+
+
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
-  * console.log('purple')
+  colorOne === 'purple'
+  colorTwo === 'purple';
+  * console.log(colorOne)
 }
-*/
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
