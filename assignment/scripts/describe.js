@@ -46,8 +46,9 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 //We have secret set as an undefined variable
 //We are declaring that the word code has a value of 123
-//a conditional statement that states if the code is equal to 123 the secret has a value of "super" and the code is multiplied by itself?
-//a conditional statement that if the code is greater than 250- the value of secret is equal to string 'duper' - the console log will return a "super" when secret is typed in the log.
+//a conditional statement that states if the code is equal to 123 the secret has a value of "super" and the code is multiplied by two.
+//a conditional statement that if the code is greater than 250- the value of secret is assigned the string 'duper'
+// when ran, the console log will return a 'super'
 
 //CODE
 
@@ -110,18 +111,18 @@ if (isStudent === true && zip > 80000 ) {
 // -- it is, so we console.log 'yes'
 
 //CODE
-/*
+
 let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--;
+number++;
 
 if (number >= 2) {
   console.log('yes');
 }
 
-*/
+
 
 
 
@@ -138,7 +139,7 @@ let mix = true;
 if (mix === true) {
   colorOne === 'purple'
   colorTwo === 'purple';
-  * console.log(colorOne)
+  console.log(colorOne)
 }
 
 
